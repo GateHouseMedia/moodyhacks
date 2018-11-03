@@ -5,18 +5,18 @@ var countySelection
 // This is the function that actually changes the text on the page.
 function changeVariables() {
 	// Create a loop to move through the election data
-  	for (var i = electionData.length - 1; i >= 0; i--) {
-  	// If the county value matches the county selection, do what's inside the brackets
-    if (electionData[i].County == countySelection) {
-    // Replace the HTML of these #'s with the variables defined in electiondata
-   	document.getElementById('position1').innerHTML = electionData[i].Position;
-   	document.getElementById('position2').innerHTML = electionData[i].Position;
-    document.getElementById('name').innerHTML = electionData[i].Name;
-    document.getElementById('phone').innerHTML = electionData[i].Phone;
-    // End the if statement
-    }
-  // End the loop
-  }
+	for (var i = electionData.length - 1; i >= 0; i--) {
+  		// If the county value matches the county selection, do what's inside the brackets
+    		if (electionData[i].County == countySelection) {
+    			// Replace the HTML of these #'s with the variables defined in electiondata
+   			document.getElementById('position1').innerHTML = electionData[i].Position;
+   			document.getElementById('position2').innerHTML = electionData[i].Position;
+    			document.getElementById('name').innerHTML = electionData[i].Name;
+    			document.getElementById('phone').innerHTML = electionData[i].Phone;
+    		// End the if statement
+    		}
+  	// End the loop
+  	}
 // End the function
 }
 
