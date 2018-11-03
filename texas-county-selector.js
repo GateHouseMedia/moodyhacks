@@ -2,7 +2,7 @@
 var selector
 var countySelection
 
-// This is the function that actually changes the tetx on the page.
+// This is the function that actually changes the text on the page.
 function changeVariables() {
 	// Create a loop to move through the election data
   	for (var i = electionData.length - 1; i >= 0; i--) {
