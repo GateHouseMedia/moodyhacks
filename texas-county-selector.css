@@ -1,0 +1,15 @@
+body {
+	margin: 30vh auto;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 2;
+	max-width: 500px;
+}
+.data-source {
+	font-size: 10px;
+	font-style: italic;
+}
+.data-source a {
+	text-decoration: none;
+	color: inherit;
+}
